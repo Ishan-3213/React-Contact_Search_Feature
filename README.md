@@ -4,7 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - Create a new React app using `npx create-react-app` contact-search.
 
-
 ## Project Structure
 
 ```
@@ -19,7 +18,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - index.js
   - styles.css
 ```
-
 
 ## Available Scripts
 
