@@ -1,6 +1,5 @@
-// src/components/SearchForm.js
 import React from "react";
-import "./SearchForm.css"; // Create a CSS file for custom styling
+import "./SearchForm.css";
 
 const SearchForm = ({ filters, onChange }) => {
   return (
