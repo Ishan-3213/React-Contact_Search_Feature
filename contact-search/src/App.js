@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from "react";
 import { contacts as data } from "./data";
 import SearchForm from "./components/SearchForm";
@@ -23,7 +22,7 @@ const App = () => {
   const [filteredContacts, setFilteredContacts] = useState(data);
   const [selectedContact, setSelectedContact] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 5;
+  const itemsPerPage = 4;
 
   const handleFilterChange = (e) => {
     const { name, value } = e.target;

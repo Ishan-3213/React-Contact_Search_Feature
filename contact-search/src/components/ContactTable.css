@@ -1,0 +1,67 @@
+.contact-table-container {
+    margin: 20px auto;
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  
+  .contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .contact-table th,
+  .contact-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .contact-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-table .table-row:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .contact-table .select-button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-table .select-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .no-results {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-table th,
+    .contact-table td {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  
+    .contact-table .select-button {
+      font-size: 12px;
+      padding: 4px 8px;
+    }
+  }
+  
