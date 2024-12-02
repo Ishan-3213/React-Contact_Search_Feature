@@ -2,7 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Create a new React app using `npx create-react-app` contact-search.
+## Setup Instructions:
+1. Clone the repository using: `git clone <repository-link>`
+2. Navigate to the project folder: `cd contact-search`
+3. Install dependencies: `npm install`
+3. Start the app: `npm start`
+
 
 ## Project Structure
 

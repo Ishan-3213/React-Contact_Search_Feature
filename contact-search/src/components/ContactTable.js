@@ -22,14 +22,14 @@ const ContactTable = ({ contacts, onSelect }) => {
           {contacts.length > 0 ? (
             contacts.map((contact, index) => (
               <tr key={index} className="table-row">
-                <td>{contact.name || "N/A"}</td>
-                <td>{contact.dob || "N/A"}</td>
-                <td>{contact.address || "N/A"}</td>
-                <td>{contact.city || "N/A"}</td>
-                <td>{contact.state || "N/A"}</td>
-                <td>{contact.zip || "N/A"}</td>
-                <td>{contact.email || "N/A"}</td>
-                <td>{contact.phone || "N/A"}</td>
+                <td>{contact.name || " "}</td>
+                <td>{contact.dob || " "}</td>
+                <td>{contact.address || " "}</td>
+                <td>{contact.city || " "}</td>
+                <td>{contact.state || " "}</td>
+                <td>{contact.zip || " "}</td>
+                <td>{contact.email || " "}</td>
+                <td>{contact.phone || " "}</td>
                 <td>
                   <button
                     className="select-button"

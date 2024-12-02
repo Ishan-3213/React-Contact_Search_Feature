@@ -22,7 +22,7 @@ const App = () => {
   const [filteredContacts, setFilteredContacts] = useState(data);
   const [selectedContact, setSelectedContact] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 4;
+  const itemsPerPage = 8;
 
   const handleFilterChange = (e) => {
     const { name, value } = e.target;
